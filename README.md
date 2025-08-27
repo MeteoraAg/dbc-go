@@ -1,41 +1,31 @@
-# Meteora DBC Examples in Go
+# Meteora ☄️ DbcGOSDK
 
 ## Overview
 
-This repository contains examples of how to use the Meteora Dynamic Bonding Curve program in Go. Powered by [solana-go](https://github.com/gagliardetto/solana-go).
+Meteora Dynamic Bonding Curve program in Go. Powered by [solana-go](https://github.com/gagliardetto/solana-go) and [solana-anchor-go](https://github.com/fragmetric-labs/solana-anchor-go).
 
-## Prerequisites
+## Running test...
 
-- [Download Go](https://go.dev/doc/install)
+Tests are located in ./helpers/ and ./maths
 
-## Usage
+- to run all test in a directory:
 
-1. Install dependencies
+ > go test ./helpers/
 
-```bash
-go mod tidy
-```
+- to run a single test file:
 
-2. Run the examples
+> go test ./helpers/curve_test.go
 
-Before running the examples, you need to:
+- to run a specific test func:
 
-1. Set the private keys and public keys in the examples.
-2. Set the RPC endpoint in the examples.
-3. Uncomment the `main()` function in the examples.
+> go test ./helpers/ -run "TestBuildCurve"
 
-```bash
-go run examples/<file-name>.go
-```
+- run a specific sub-test:
+
+> go test ./helpers/ -run "TestBuildCurve/xxxxx"
+
+- run all test:
+> make test
+
 
 ## Examples
-
-- [Create a pool and swap SOL](./examples/create_pool_and_swap_sol.go)
-- [Create a pool and swap USDC](./examples/create_pool_and_swap_usdc.go)
-- [Claim creator trading fee](./examples/claim_creator_trading_fee.go)
-- [Claim partner trading fee](./examples/claim_partner_trading_fee.go)
-- [Fetch pool configuration](./examples/get_pool_config.go)
-- [Fetch pool fee metrics](./examples/get_pool_fee_metrics.go)
-- [Fetch pool](./examples/get_pool.go)
-- [Fetch bonding curve progress](./examples/get_bonding_curve_progress.go)
-- [Transfer pool creator fee](./examples/transfer_pool_creator_fee.go)
