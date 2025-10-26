@@ -5,8 +5,8 @@ import (
 
 	"github.com/gagliardetto/solana-go"
 
-	"github.com/dannwee/dbc-go/common"
-	"github.com/dannwee/dbc-go/helpers"
+	"github.com/MeteoraAg/dbc-go/common"
+	"github.com/MeteoraAg/dbc-go/helpers"
 )
 
 func ClaimPartnerTradingFee(

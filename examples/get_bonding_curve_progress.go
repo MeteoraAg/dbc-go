@@ -6,10 +6,11 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/dannwee/dbc-go/instructions"
-	"github.com/dannwee/dbc-go/math"
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/rpc"
+
+	"github.com/MeteoraAg/dbc-go/instructions"
+	"github.com/MeteoraAg/dbc-go/math"
 )
 
 func GetBondingCurveProgress() {

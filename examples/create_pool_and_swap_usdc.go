@@ -10,8 +10,8 @@ import (
 	associatedtokenaccount "github.com/gagliardetto/solana-go/programs/associated-token-account"
 	"github.com/gagliardetto/solana-go/rpc"
 
-	"github.com/dannwee/dbc-go/helpers"
-	"github.com/dannwee/dbc-go/instructions"
+	"github.com/MeteoraAg/dbc-go/helpers"
+	"github.com/MeteoraAg/dbc-go/instructions"
 )
 
 func CreatePoolAndSwapUsdc() {

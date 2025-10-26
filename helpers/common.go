@@ -5,8 +5,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/dannwee/dbc-go/common"
 	"lukechampine.com/uint128"
+
+	"github.com/MeteoraAg/dbc-go/common"
 )
 
 // Deserializes the pool config account data
