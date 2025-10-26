@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"log"
 
-	"github.com/dannwee/dbc-go/common"
 	"github.com/gagliardetto/solana-go"
+
+	"github.com/MeteoraAg/dbc-go/common"
 )
 
 // Derives the dbc pool address

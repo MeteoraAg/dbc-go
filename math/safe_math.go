@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/dannwee/dbc-go/common"
+	"github.com/MeteoraAg/dbc-go/common"
 	"lukechampine.com/uint128"
 )
 

@@ -1,4 +1,4 @@
-module github.com/dannwee/dbc-go
+module github.com/MeteoraAg/dbc-go
 
 go 1.21
 

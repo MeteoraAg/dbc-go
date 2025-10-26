@@ -6,9 +6,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/dannwee/dbc-go/instructions"
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/rpc"
+
+	"github.com/MeteoraAg/dbc-go/instructions"
 )
 
 func GetPool() {

@@ -5,10 +5,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dannwee/dbc-go/common"
-	"github.com/dannwee/dbc-go/helpers"
 	"github.com/gagliardetto/solana-go"
 	solRpc "github.com/gagliardetto/solana-go/rpc"
+
+	"github.com/MeteoraAg/dbc-go/common"
+	"github.com/MeteoraAg/dbc-go/helpers"
 )
 
 func GetPoolConfig(ctx context.Context, configAddress solana.PublicKey, rpcClient *solRpc.Client) (*common.PoolConfig, error) {
