@@ -1,5 +1,0 @@
-# Drop an entry once a tagged release has the fix.
-
-[[IgnoredVulns]]
-id = "GO-2026-5932"
-reason = "x/crypto/openpgp is unmaintained, the fix is an untagged commit after v0.58.0. Nothing here imports openpgp, govulncheck only reports it at module level"
